@@ -71,6 +71,8 @@ public interface ConfigXML
 	String ADAGRAD_MINI_BATCH	= "adagrad-mini-batch";
 	String ADAGRAD_REGRESSION	= "adagrad-regression";
 	String ADADELTA_MINI_BATCH	= "adadelta-mini-batch";
+	
+	String SUM_ENSEMBLE			= "sum-ensemble";
 
 //	========================== NEURAL NETWORKS ==========================
 	

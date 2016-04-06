@@ -16,6 +16,7 @@
 package edu.emory.mathcs.nlp.component.template.config;
 
 import java.io.InputStream;
+import java.io.Serializable;
 import java.util.Arrays;
 
 import org.w3c.dom.Element;
@@ -48,8 +49,13 @@ import it.unimi.dsi.fastutil.objects.Object2IntOpenHashMap;
 /**
  * @author Jinho D. Choi ({@code jinho.choi@emory.edu})
  */
-public class NLPConfig implements ConfigXML
+public class NLPConfig implements ConfigXML, Serializable
 {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4121262203434095864L;
+	
 	protected Element xml;
 	
 //	=================================== CONSTRUCTORS ===================================
